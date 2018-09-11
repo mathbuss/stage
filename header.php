@@ -3,7 +3,7 @@
                 <img src="images/36880089.jpg" alt="Logo" class="logo_img" />
                 <div>
                     <h1>Nom de l'entreprise</h1>
-                    <h2>Slogant de l'entreprise</h2>
+                    <h2>Slogan de l'entreprise</h2>
                 </div>
             </div>
             <nav>
