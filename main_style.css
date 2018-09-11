@@ -343,6 +343,15 @@ License: none (public domain)
         font-size: 0.8em;
     }
 
+    .confirm_message {
+
+        position: absolute;
+        top: 100px;
+        left: 6px;
+        display: block;
+        
+    }
+
     aside {
         flex: 1.2;
         position: relative;
@@ -443,6 +452,8 @@ License: none (public domain)
         margin: 4px;
     }
 
+    
+
     @media all and (max-width:960px) {
 
         header h1 {
@@ -472,6 +483,8 @@ License: none (public domain)
         nav li {
 
             margin-bottom: 8px;
+
+            font-size: 0.8em;
         }
 
         video {
@@ -550,10 +563,29 @@ License: none (public domain)
         .fleche_bulle {
             display: none;
         }
+
         footer {
 
-            display: none;
+            justify-content: space-around;
+            align-content: center;
+            align-items: center;
+
+            text-align: center;
         }
+
+        footer a{
+
+            font-size: 0.6em;
+
+        }
+
+        footer img {
+
+        height: 10%;
+        width: 10%;
+        margin: 2px;
+    }
+
     }
 
     @media all and (max-width: 440px) {
@@ -565,7 +597,7 @@ License: none (public domain)
         }
         header h1 {
 
-            font-size: 1.6em;
+            font-size: 1.4em;
         }
 
         header h2 {
@@ -614,7 +646,9 @@ License: none (public domain)
 
         nav li {
 
-            font-size: 0.6em;
+            font-size: 0.5em;
+            margin-left: 20px;
+
         }
 
         video {
@@ -623,3 +657,5 @@ License: none (public domain)
 
             margin-top: 90px;
         }
+
+        

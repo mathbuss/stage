@@ -10,7 +10,7 @@
 <body>
     <main>
         <?php 
-        include("header.php") 
+        include("header.php");
         ?>
         <video src="" controls poster="images/concierge-image.jpg">
         </video>
@@ -18,7 +18,7 @@
             <p id="banner_text">Découvrez les services</p>
             <a href="#" class="purple_button">Voir</a>
         </div>
-        <div>
+        
             <section>
                 <article>
                     <h1>BlaBlA</h1>
